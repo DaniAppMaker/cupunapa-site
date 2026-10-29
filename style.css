@@ -230,3 +230,4 @@ footer .wrap { position: relative; }
 .doc-contact { display: flex; align-items: center; gap: 14px; margin: 30px 0 8px; }
 .doc-contact h2 { margin: 0; }
 .doc-mouse { flex: none; width: 92px; height: auto; user-select: none; pointer-events: none; }
+.perks .perks-first { margin-bottom: 10px; }
