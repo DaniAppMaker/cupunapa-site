@@ -231,3 +231,11 @@ footer .wrap { position: relative; }
 .doc-contact h2 { margin: 0; }
 .doc-mouse { flex: none; width: 92px; height: auto; user-select: none; pointer-events: none; }
 .perks .perks-first { margin-bottom: 10px; }
+
+/* tester feedback: kind words only, each with the credit its author chose */
+.reviews { background: var(--paper); }
+.reviews-grid { column-width: 280px; column-gap: 20px; margin-top: 24px; }
+.reviews-grid figure { break-inside: avoid; margin: 0 0 20px; padding: 22px 22px 18px; border-radius: 20px; border: 1px solid var(--line); background: var(--paper-2); display: flex; flex-direction: column; gap: 14px; }
+.reviews-grid blockquote { margin: 0; }
+.reviews-grid blockquote p { margin: 0; font-size: 1.12rem; line-height: 1.55; color: var(--ink); }
+.reviews-grid figcaption { font-size: .98rem; color: var(--ink-soft); }
